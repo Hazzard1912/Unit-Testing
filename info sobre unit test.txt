@@ -1,0 +1,21 @@
+Definir la cantidad y variedad de casos de prueba para una función o unidad puede variar según el contexto y la complejidad de la función en cuestión. Sin embargo, hay algunas prácticas recomendadas que pueden ayudarte a establecer un equilibrio entre una cobertura adecuada y la eficiencia en la escritura y ejecución de pruebas.
+
+Aquí hay algunas sugerencias generales para determinar cuántos casos de prueba y qué tipos de casos deberías incluir:
+
+1. **Cobertura de escenarios clave**: Asegúrate de cubrir escenarios clave que representen diferentes caminos de ejecución de la función. Esto podría incluir casos de éxito (entrada válida que se espera que funcione correctamente) y casos de error (entrada inválida o escenarios excepcionales).
+
+2. **Pruebas de límites**: Incluye casos que prueben los límites de los valores de entrada. Por ejemplo, si tu función toma un número como entrada, prueba con el número más pequeño posible, el más grande posible y valores en el medio. Esto ayuda a verificar cómo maneja la función entradas extremas.
+
+3. **Casos de borde**: Identifica casos de borde, donde se podrían presentar problemas. Por ejemplo, si tu función trabaja con listas, prueba con listas vacías, con un solo elemento, con elementos duplicados, etc.
+
+4. **Casos de combinación**: Si la función tiene múltiples parámetros o factores que podrían interactuar, prueba diferentes combinaciones de valores para asegurarte de que la función maneje todas las posibilidades.
+
+5. **Escenarios de excepción**: Asegúrate de probar cómo maneja la función situaciones excepcionales, como manejo de errores y manejo de excepciones.
+
+6. **Cobertura básica y exhaustiva**: Si bien no es necesario probar todas las combinaciones posibles, intenta lograr una cobertura básica que garantice que los caminos principales y los escenarios clave estén probados.
+
+7. **Enfoque en la funcionalidad**: Concéntrate en probar la funcionalidad real de la función, en lugar de probar aspectos internos o detalles de implementación que podrían cambiar con el tiempo.
+
+8. **Mantenibilidad**: Mantén las pruebas manejables y fáciles de entender. Evita redundancias y crea pruebas que sean claras en su intención.
+
+No hay un número fijo de casos de prueba que sea adecuado en todos los casos. Lo importante es tener un conjunto de pruebas que cubra los aspectos más importantes de la función y los posibles escenarios que puedan surgir. A medida que ganas experiencia en la escritura de pruebas, podrás tomar decisiones más informadas sobre la cantidad y el tipo de pruebas que son apropiados para tus proyectos.
